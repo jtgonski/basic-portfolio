@@ -3,55 +3,76 @@
 
 <head>
 	<title>Julianne Gonski Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<div>
-		<h1>Julianne Gonski</h1>
-		<ul>
-			<li><a href="about.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</div>
+	<div class="header">
+
+		<div class="name">
+			<h1>Julianne Gonski</h1>
+		</div>
+
+		<div class="navigation">
+			<ul>
+				<li><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+	  </div>
 	
-	<div>
-		<section>
+	<br>
+
+   <div class="wrapper">
+
+		<div class="container">
 			
-			<h2>About Me</h2>
-			
-			<img src="assets/images/IMG_5809.JPG" alt="julianne gonski" style="width:200px;height:200px;">
+				<h2>Contact</h2>
+				
+				<hr />
+				<br>
+				<form action="/action_page.php">
+					Name:<br>
+  					<input type="text" name="firstname" value="name"><br>
 
-			<p>
-				Nullam rutrum at justo ut mollis. Nullam nec malesuada mi, quis lobortis elit. Maecenas scelerisque, nibh sed dignissim aliquam, turpis quam consequat diam, quis placerat lectus mauris a mauris. Vestibulum ut quam augue. Suspendisse potenti. Aenean dictum semper nunc, aliquam accumsan est semper vel. Quisque pellentesque gravida risus sed posuere. Integer vehicula vel ex non fringilla. Fusce imperdiet, leo vel pharetra tincidunt, magna elit semper est, sagittis condimentum nisi massa quis lectus. Nulla viverra eleifend semper.
-			</p>
+  					Email Address:<br>
+  					<input type="text" name="lastname" value="email address"><br>
 
-			<p>
-				Mauris tincidunt tortor et neque vehicula hendrerit. Ut egestas pretium leo, ac pulvinar est placerat in. Pellentesque vestibulum, arcu at interdum sollicitudin, lacus lectus pretium dui, sed tristique tortor orci nec velit. Proin posuere ante non quam egestas posuere. Nulla facilisis, leo quis efficitur euismod, metus ante facilisis metus, in euismod risus dolor quis leo. Etiam in risus condimentum, iaculis quam vel, fermentum felis. Duis vulputate a dolor ut aliquam.
-			</p>
+  					 Message:<br>
 
-		</section>
-	</div>
+					<textarea name="message" rows="10" cols="30">
+						
+					</textarea>
+  						<br>
+ 					 <input type="submit">
+				</form>
+		
+		</div>
 
-	<div>
-		<section>
+	<div class="sidebar">
 
 		<h3>Connect With Me</h3>
+
+		<hr />
+		<br>
 
 		<a href="https://github.com/jtgonski" target="_blank"><img src="assets/images/github.png" alt="github" style="width:50px;height:50px;"></a>
 
 		<a href="https://www.linkedin.com/in/julianne-gonski-6859ab12" target="_blank"><img src="assets/images/linkedin.png" alt="github" style="width:50px;height:50px;"></a>
 
 		<a href="https://stackoverflow.com/users/8157392/jtgonski?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" alt="github" style="width:50px;height:50px;"></a>
-
-		</section>
+ 
 	</div>
 	
-	<br>
 
-	<div>
-		copyright julianne gonski 2017
-	</div>
+   </div>
 
+		<div class="footer">
+			&copy; copyright 2017 julianne gonski
+		</div>
+  
 </body>
 </html>
